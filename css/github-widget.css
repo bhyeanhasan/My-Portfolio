@@ -1,7 +1,7 @@
 .gw-repo-outer {
   float: left;
   width: 50%;
-  
+  overflow: auto;
 }
 .gw-repo-outer:nth-child(2n + 1) {
   clear: left;
