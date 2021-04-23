@@ -1,0 +1,58 @@
+
+#mypicture{
+    height: 200px;
+    float: right;
+}
+.pic{
+    /*text-align: center;*/
+}
+
+.container{
+    /*padding-left: 15%;*/
+    margin-top: 20px;
+}
+
+.sub{
+    margin-left: 3%;
+}
+
+table{
+    width: 100%;
+}
+
+
+p{
+    margin: 5px;
+}
+h4{
+    margin-bottom: 5px;
+}
+.top-intro{
+    margin-top: 50px;
+}
+
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.footer{
+    padding: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    body{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+@media screen and (max-width: 850px) {
+    body{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #mypicture{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
