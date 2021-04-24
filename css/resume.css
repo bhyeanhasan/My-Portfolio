@@ -20,6 +20,11 @@ table{
     width: 100%;
 }
 
+.sub{
+    white-space: normal;
+    word-break: break-all;
+}
+
 
 p{
     margin: 5px;
