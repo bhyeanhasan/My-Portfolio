@@ -637,10 +637,10 @@ td, th {
     -ms-transform-origin: 50% 50%;
     -o-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
-    -webkit-animation: loader 2s linear infinite;
-    -moz-animation: loader 2s linear infinite;
-    -o-animation: loader 2s linear infinite;
-    animation: loader 2s linear infinite; }
+    -webkit-animation: loader 1s linear infinite;
+    -moz-animation: loader 1s linear infinite;
+    -o-animation: loader 1s linear infinite;
+    animation: loader 1s linear infinite; }
 
 @-webkit-keyframes loader {
   0% {
