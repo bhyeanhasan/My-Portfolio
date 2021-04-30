@@ -20,7 +20,18 @@ table{
     width: 100%;
 }
 
+td{
+    /* margin-right: 10%; */
+}
+
 .sub{
+    white-space: normal;
+    /* word-break: break-all; */
+    word-break: normal;
+}
+
+.sup
+{
     white-space: normal;
     word-break: break-all;
 }
