@@ -1,7 +1,8 @@
 .gw-repo-outer {
   float: left;
   width: 50%;
-  overflow: auto;
+  word-break: break-all;
+  white-space: normal;
 }
 @media only screen and (max-width: 760px) {
   .gw-repo-outer {
