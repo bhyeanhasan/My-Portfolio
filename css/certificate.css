@@ -1,0 +1,91 @@
+.carousel {
+	margin: 25px 0 50px;
+    background: #fff;
+	position: relative;
+	padding: 8px;
+	box-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
+.carousel:before, .carousel:after {
+	z-index: -1;
+	position: absolute;
+	content: "";
+	bottom: 15px;
+	left: 10px;
+	width: 80%;
+	top: 80%;
+	max-width: 400px;
+	background: rgba(0, 0, 0, 0.7);
+	box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+	transform: rotate(-3deg);
+}
+.carousel:after {
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+.carousel .item {
+    text-align: center;
+	min-height: 314px;
+}
+.carousel .item img {
+	max-width: 100%;
+    margin: 0 auto; /* Align slide image horizontally center in Bootstrap v3 */
+}
+.carousel .carousel-control {
+	width: 27px;
+	height: 54px;
+	overflow: hidden;
+	opacity: 1;
+	margin: auto 0;
+	background: none;
+	text-shadow: none;
+}
+.carousel .carousel-control span {
+	width: 54px;
+    height: 54px;
+	display: inline-block;
+    background: #4a4a4a;
+    border-radius: 50%;
+    box-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
+.carousel .carousel-control.left span {
+	margin-right: -27px;
+}
+.carousel .carousel-control.right span {
+	margin-left: -27px;
+}
+.carousel .carousel-control:hover span {
+	background: #3b3b3b;
+}
+.carousel .carousel-control i {
+    font-size: 24px;
+    margin-top: 13px;
+}
+.carousel .carousel-control.left {
+	margin-left: -28px;
+}
+.carousel .carousel-control.right {
+	margin-right: -28px;
+}
+.carousel .carousel-control.left i {
+	margin-left: -24px;
+}
+.carousel .carousel-control.right i {
+	margin-right: -24px;
+}
+.carousel-indicators {
+	bottom: -42px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 11px;
+	height: 11px;
+	border-radius: 50%;
+	margin: 1px 4px;
+}
+.carousel-indicators li {
+	border: 1px solid #475c6f;
+}
+.carousel-indicators li.active {
+	background: #20b0b9;
+	border-color: #20b0b9;
+}
