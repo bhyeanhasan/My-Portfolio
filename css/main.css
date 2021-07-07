@@ -12,6 +12,12 @@
   height: 90vh;
 }
 
+.project-panel{
+  border: #e45447;
+  border-radius: 10px;
+  border-style: solid;
+}
+
 @media only screen and (max-width: 700px) {
   .certificate {
     width:90%;
