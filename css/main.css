@@ -2240,7 +2240,7 @@ body.mobile-nav-active #mobile-nav-toggle {
       padding-bottom: 0px; } }
 @media (max-width: 991px) {
   .about-area .about-left {
-    display: none; } }
+    text-align: center; } }
 .about-area .primary-btn.white {
   margin-right: 10px; }
   @media (max-width: 1199px) {
