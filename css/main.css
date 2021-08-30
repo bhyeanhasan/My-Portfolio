@@ -2240,7 +2240,14 @@ body.mobile-nav-active #mobile-nav-toggle {
       padding-bottom: 0px; } }
 @media (max-width: 991px) {
   .about-area .about-left {
-    text-align: center; } }
+    text-align: center;
+   }
+
+   .about-area .about-left img {
+    width: 100%;
+   }
+  
+  }
 .about-area .primary-btn.white {
   margin-right: 10px; }
   @media (max-width: 1199px) {
